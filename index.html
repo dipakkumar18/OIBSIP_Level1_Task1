@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<header>
+		<nav class="nav1">
+			<div >
+				<h1>OASIS College</h1>
+			</div>
+	
+			<div class="menu">
+				<span class="sub">
+					<a href="#">Home</a>
+					<a href="#">Admission</a>
+					<a href="#">Courses</a>
+					<a href="#">Events</a>
+					<a href="#">About</a>
+					<a href="#">Contact</a>
+				</span>
+				<span class="btn"><a href="#" id="lg" onmouseover="MouseOveronLogin()" onmouseout="MouseOutonLogin()">Login</a></span>
+			</div>
+		</nav>
+
+		<div class="h-text">
+			<h1>
+				<h1>WELCOME TO <br><span class="colname">OASIS College</span></h1>
+			</h1>
+			<p>This is a colleg who gives opoportunity to student learn something new and get certificate for their task.</p>
+			<a href="#" id="lm" onmouseover="MouseOveronLearn()" onmouseout="MouseOutonLearn()">Learn More</a>
+		</div>
+
+	</header>
+
+<footer>
+	<nav class="nav2">
+			<div>
+				Satya Niketan, New Delhi
+			</div>
+			<div>
+				Follow on:
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-google"></i>
+				<i class="fa fa-twitter"></i>`
+			</div>
+	</nav>
+	</footer>
+
+	<script type="text/javascript">
+		function MouseOveronLogin()	{
+			document.getElementById('lg').style.background='green';
+
+		}
+		function MouseOutonLogin()	{
+			document.getElementById('lg').style.background='orange';	
+		}
+		function MouseOveronLearn()	{
+			document.getElementById('lm').style.background='yellow';
+			document.getElementById('lm').style.color='black';
+		}
+		function MouseOutonLearn()	{
+			document.getElementById('lm').style.background='orange';
+			document.getElementById('lm').style.color='white';
+		}
+
+	</script>
+	
+</body>
+</html>
